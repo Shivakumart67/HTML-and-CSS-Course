@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Notes</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS Design.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background-color: antiquewhite;
+        background-image: url(1567836.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      .color {
+        color: white;
+        background-color: black;
+        border: 2px solid yellow;
+      }
+      .horizontal {
+        border: 1px solid blue;
+      }
+      #selectorhead {
+        font-family: cursive;
+        color: hotpink;
+        text-decoration: underline black 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <span
+      ><h1
+        style="
+          color: yellow;
+          background-color: black;
+          width: 300px;
+          height: 35px;
+          border: 2px solid red;
+        "
+      >
+        WELCOME TO CSS
+      </h1></span
+    >
+
+    <p>
+      CSS is called as "<b><i class="new">Cascading Style Sheet</i></b
+      >"
+    </p>
+    <div>
+      <span class="color"><b>There is 3 Ways to add CSS to HTML : </b></span>
+
+      <ol class="ordredlist">
+        <li>
+          <b class="list">Inline CSS :</b> The style attribute is used in
+          between the tags in HTML.
+        </li>
+        <li>
+          <b class="list">Internal CSS :</b> In between <b>head tag</b>, Create
+          a new <b>style</b> attribute and use the styles in between the Style
+          tag.
+        </li>
+        <li>
+          <b class="list">External CSS :</b> Create new
+          <strong>CSS file</strong> <em><strong>(style.css)</strong>.</em> In
+          that file use the CSS file.
+        </li>
+      </ol>
+      <p>
+        <b class="Bold">Note : </b> In the head tag you have to link the CSS
+        file hyperlink to Access the CSS file. <br />
+        Make link tag -- in the rel attribute give "stylesheet" -- and in the
+        href attribute give the link of CSS file. It wlill access the CSS file.
+      </p>
+    </div>
+    <br />
+    <hr class="horizontal" />
+
+    <h3 id="selectorhead">Selectors in CSS</h3>
+    <span class="color"
+      ><b class="subhead">There are four types of selectors in CSS : </b></span
+    >
+    <ol class="newol">
+      <li>
+        <b>CSS Element selector : </b>The Element selector is called using tag
+        name giving the CSS styles.
+      </li>
+      <li><b>CSS ID selector : </b>using ID to give the CSS value</li>
+      <li><b>CSS Class selector : </b>using Class to give the CSS value</li>
+      <li>
+        <b>CSS Grouping selector : </b>The grouping is called using more value
+        to desing. -->Ex: "p, .class, #etc" using <b>","</b> symobol link the
+        more selector.
+      </li>
+    </ol>
+    <br />
+    <hr class="horizontal" />
+    <h3 id="selectorhead">Fonts in CSS</h3>
+    Select the font in the font family and font properties.
+    <br />
+    <hr class="horizontal" />
+
+    <h3 id="selectorhead">Background properties</h3>
+    <p>In this Background Only discuss about the Background of the webpage.</p>
+    <div id="shivakumara">
+      <p>
+        ostrum laudantium, commodi, fugiat corrupti? Earum totam excepturi, quo
+        ducimus porro explicabo odit doloremque modi possimus qui magnam animi
+        natus rem quaerat molestiae ipsum neque ad eaque. Delectus, soluta.
+        Explicabo voluptatum illo libero. Aperiam modi distinctio perspiciatis
+        rem explicabo qui, necessitatibus et, sint voluptate debitis fugiat
+        vitae itaque porro veritatis amet laborum quo incidunt, sit omnis atque
+        totam voluptatum dolorum obcaecati exercitationem? Eum minus commodi
+        mollitia, possimus accusamus perferendis eligendi non praesentium iusto,
+        explicabo voluptatem pariatur libero ducimus, delectus culpa eveniet
+        provident minima sint unde corrupti nihil voluptatum quidem magnam
+        error? Assumenda veniam, fugiat exercitationem ut voluptatum eveniet
+        delectus laudantium in id laboriosam omnis. Quo tempora pariatur
+        eligendi ratione esse? Rerum quas quibusdam, id minus dolor eius itaque
+        deserunt odio iusto ab culpa vero non maxime unde veniam obcaecati,
+        pariatur in? Ex totam illo quos? Quo repellendus cum debitis soluta
+        atque animi doloribus iusto quod placeat nihil qui eaque dolores vitae
+        ea alias, saepe pariatur mollitia enim natus! Voluptatum officiis harum,
+        enim dolore aliquid in corporis reprehenderit, deserunt atque numquam
+        quod cupiditate doloremque veritatis quae! Odit earum, eligendi nostrum
+        ipsam mollitia delectus! Vitae architecto pariatur quas tenetur culpa
+        commodi molestias alias, velit necessitatibus, nisi vel adipisci.
+        Nesciunt impedit perferendis, at reiciendis assumenda et? Recusandae
+        expedita doloribus beatae illum at minus velit in est eaque dolor,
+        officia dolorum unde explicabo eum omnis cumque ipsa animi nesciunt
+        commodi. Aliquid eos perferendis voluptas, accusantium id obcaecati
+        maxime modi, quis ullam provident et atque reprehenderit eius voluptates
+        pariatur? Perferendis, provident tenetur. Voluptas quaerat rerum
+        accusantium nihil aperiam ipsa assumenda soluta, in possimus doloribus.
+        Qui odio nesciunt tempore excepturi molestiae molestias odit,
+        praesentium tenetur adipisci? Odio veniam illum nesciunt quo assumenda
+        culpa modi, magni beatae architecto quae animi, nisi sint fuga ullam
+        dolores ratione fugiat debitis? Assumenda, fuga? Magni, dolor.
+      </p>
+    </div>
+    <br />
+    <hr class="horizontal" />
+    <br />
+    <div class="clip">
+      Background Clip <br />
+      This is background clip using image
+      <br />
+      Behind Image is There It Will not Show
+    </div>
+    <hr class="horizontal" />
+    <h1 id="selectorhead">Background Gradient</h1>
+    <div class="Gradient"></div>
+    <br />
+    <hr class="horizontal" />
+    <h1 id="selectorhead">Background Blend in CSS</h1>
+    <b
+      >Blending the two images as two images in photoshop. <br />
+      * normal , * screen, * overlay , * darken, * hue, * Saturation, *
+      etc....</b
+    >
+    <div class="blend"></div>
+    <br />
+    <hr class="horizontal" />
+    <h1 id="selectorhead">opacity in CSS</h1>
+    <b
+      >lightening the image at 0 to 1 <br />
+      ex : opacity : 0.3; , etc....</b
+    >
+    <div class="opacity"></div>
+    <br />
+    <hr class="horizontal" />
+    <h1 id="selectorhead">Text Properties</h1>
+    <div>
+      <ol style="font-size: 20px; font-family: cursive; line-height: 35px">
+        <li>
+          <b>Letter Spacing : </b
+          ><span style="letter-spacing: 7px"
+            >The space between the letters</span
+          >
+        </li>
+        <li>
+          <b>Text Decoration : </b
+          ><span
+            ><i style="text-decoration: underline">Underline</i> ,
+            <i style="text-decoration: overline">Overline</i>,
+            <i style="text-decoration: line-through">Line Through</i>
+            ...etc....</span
+          >
+        </li>
+        <li>
+          <b>Vertical Align : </b>Sub and super - power and log in maths (word<b
+            style="vertical-align: sub"
+            >sub align</b
+          >
+          , word<b style="vertical-align: super">super align</b> )
+        </li>
+        <li>
+          <b>Text Transform : </b
+          ><b style="text-transform: uppercase">Upper case</b> ,
+          <b style="text-transform: Lowercase">Lowercase</b> and etc....
+        </li>
+        <li><b>Text Align : </b>Center , Justify , and etc....</li>
+        <li>
+          <b>Text Indent : </b>Make a paragraph (in M S office giving a
+          <em><strong>one tab space</strong></em> to make paragraph) , using
+          giving 50px or more.
+        </li>
+        <li>
+          <b>Line Height : </b>height of the line by line , line spacing, height
+          = 10px or more.
+        </li>
+      </ol>
+    </div>
+    <br />
+    <hr class="horizontal" />
+    <h1 id="selectorhead">List Properties</h1>
+    <div>
+      This is the property of list.
+      <ul id="liprop">
+        <li
+          style="font-weight: bold; font-size: 20px; text-transform: capitalize"
+        >
+          Home
+        </li>
+        <li
+          style="font-weight: bold; font-size: 20px; text-transform: capitalize"
+        >
+          source
+        </li>
+        <li
+          style="font-weight: bold; font-size: 20px; text-transform: capitalize"
+        >
+          about us
+        </li>
+        <li
+          style="font-weight: bold; font-size: 20px; text-transform: capitalize"
+        >
+          detials
+        </li>
+        <li
+          style="font-weight: bold; font-size: 20px; text-transform: capitalize"
+        >
+          contact us
+        </li>
+      </ul>
+    </div>
+    <hr class="horizontal" />
+    <h1 id="selectorhead">Margin Properties</h1>
+    <div class="margin">
+      <b
+        style="
+          font-style: italic;
+          font-weight: bold;
+          font-size: larger;
+          text-decoration: underline;
+        "
+      >
+        <em
+          ><q
+            >The margin is the outside spacing of division, outside organize of
+            the division is margin.</q
+          ></em
+        ></b
+      >
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem esse
+        unde numquam quam repellendus ad ipsam? Assumenda ab unde dicta
+        consequuntur hic repellat facere veritatis id molestias repellendus.
+        Voluptates facilis ut odio eligendi nulla cum distinctio, quasi, eveniet
+        est optio, deserunt ab id vitae quaerat voluptas harum ipsam dolore
+        voluptate error. Vel sit id unde praesentium voluptate quia sed,
+        repellat facilis cum ex ipsam, illum similique cumque magni modi numquam
+        quaerat omnis nesciunt! Natus fuga harum alias quia. Minus cum expedita
+        perspiciatis et laborum voluptas, culpa iure maxime asperiores fugit
+        earum unde reprehenderit ab dolores enim quisquam? Voluptates earum
+        vitae minima ipsum consequatur perferendis, sunt repudiandae debitis
+        delectus id, commodi, voluptas repellat. Aut sequi sapiente eos tempora,
+        autem odio amet omnis doloribus commodi sint velit veniam assumenda
+        labore, maiores consequatur a ratione, repellendus culpa praesentium ex
+        exercitationem illo reiciendis! Quam explicabo atque ex dignissimos
+        obcaecati aspernatur, aliquid consectetur asperiores vel, animi rem
+        error repellat magni sunt ipsum facere enim veritatis. Reprehenderit
+        aspernatur ad alias distinctio itaque consectetur quis veniam accusamus
+        at dicta assumenda neque cumque eligendi facilis consequuntur obcaecati,
+        dese
+      </p>
+    </div>
+    <br />
+    <hr class="horizontal" />
+
+    <h1 id="selectorhead">Padding Properties</h1>
+    <div class="padding">
+      <b
+        style="
+          font-weight: 1px;
+          font-size: larger;
+          font-style: italic;
+          text-decoration: underline;
+        "
+        ><q
+          >The Padding is called inner / inside space in the division, Same sa
+          as margin but inside division.</q
+        ></b
+      >
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero optio
+        ratione delectus. Ex nulla sit architecto iure! Illum velit pariatur quo
+        eius fugiat? Optio iste, itaque beatae perspiciatis inventore eos?Lorem,
+        ipsum dolor sit amet consectetur adipisicing elit. Minima illum ipsam
+        laudantium, enim ex eligendi aspernatur harum pariatur odit sed dolore
+        vero id soluta cupiditate repellat saepe velit dignissimos nemo.
+        Eligendi voluptate magni beatae ad voluptatem voluptas quidem quo
+        eveniet aperiam praesentium, exercitationem nemo similique totam rem
+        culpa ullam. Architecto repellat, vitae quia quo in voluptatum veritatis
+        quisquam ea maxime optio a autem reiciendis praesentium quibusdam magnam
+        et repellendus error rerum eius dolorem rem? Laboriosam voluptate
+        exercitationem fuga dolore aspernatur accusamus ad animi neque, earum
+        sed, repudiandae voluptatem architecto ipsa quod tenetur facere magnam
+        minus, corrupti omnis deserunt accusantium amet assumenda illo. Saepe ut
+        molestiae, eaque tempora delectus officia, natus ipsam magnam adipisci,
+        neque fuga impedit inventore cum? Rerum facere tempora reiciendis quo
+        consectetur eius neque vel, expedita quam tempore, sint vero unde eum
+        corporis magni sunt. Dolorem sapiente soluta quos autem itaque non, iste
+        rerum veritatis sint facilis nemo asperiores earum vel pariatur
+        temporibus alias? Nisi aut dolor vitae soluta quasi! Ipsam qui excepturi
+        quae veritatis eligendi doloribus voluptatum facere assumenda, quod
+        quasi dicta dolor iure d inventore reprehenderit aperiam non distinctio,
+        suscipit dignissimos rerum eos esse laudantium temporibus deleniti.
+        Sapiente, veniam porro incidunt itaque repellat minima molestiae nihil!
+      </p>
+    </div>
+    <br />
+    <hr class="horizontal" />
+    <h1 id="selectorhead">Border Properties</h1>
+    <div class="border">
+      <p style="font-family: fantasy; text-indent: 70px">
+        In the Border more border properties is There important properties are :
+      </p>
+      <ul style="font-weight: bold; font-size: larger">
+        <li>width : is used to adjust thickness</li>
+        <li>color : Give the border color</li>
+        <li>style : style of the border</li>
+      </ul>
+    </div>
+    <br />
+    <hr class="horizontal" />
+    <h1 id="selectorhead">Display Properties</h1>
+    <div class="dispprop">
+      <p>
+        The dispaly properties works on inline and block level elements in HTML
+        <b>Inline and block level is convertes using display properties</b> If
+        <em><q>display : none</q></em> the element is hides.
+      </p>
+    </div>
+    <br />
+    <hr class="horizontal" />
+    <h1 id="selectorhead">Displaying of tables in HTML and Desing in CSS</h1>
+    <table border="2px" align="center" bordercolor="black">
+      <caption>
+        Person Detials
+      </caption>
+      <thead>
+        <tr bgcolor="lightening" align="center" valign="center">
+          <th>ID</th>
+          <th>NAME</th>
+          <th>GENDER</th>
+          <th>AGE</th>
+          <th>CITY</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr bgcolor="eaque" align="center" valign="center">
+          <td>01</td>
+          <td>Shivakumara</td>
+          <td>Male</td>
+          <td>24</td>
+          <td>Bangalore</td>
+        </tr>
+        <tr bgcolor="eaque" align="center" valign="center">
+          <td>01</td>
+          <td>Shivakumara</td>
+          <td>Male</td>
+          <td>24</td>
+          <td>Bangalore</td>
+        </tr>
+        <tr bgcolor="eaque" align="center" valign="center">
+          <td>01</td>
+          <td>Shivakumara</td>
+          <td>Male</td>
+          <td>24</td>
+          <td>Bangalore</td>
+        </tr>
+        <tr bgcolor="eaque" align="center" valign="center">
+          <td>01</td>
+          <td>Shivakumara</td>
+          <td>Male</td>
+          <td>24</td>
+          <td>Bangalore</td>
+        </tr>
+        <tr bgcolor="eaque" align="center" valign="center">
+          <td>01</td>
+          <td>Shivakumara</td>
+          <td>Male</td>
+          <td>24</td>
+          <td>Bangalore</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <table
+    align="center"
+      class="tablestudents"
+      width="_blank"
+      border="3px"
+      cellpadding="10px;"
+      cellspacing="10px;"
+      valign="center"
+      bordercolor="red"
+    >
+      <caption
+        style="font-size: larger; font-family: cursive; color: rgb(18, 2, 77)"
+      >
+        Students marks details (caption tag is used)
+      </caption>
+      <thead align="center">
+        <tr>
+          <th>Roll NO</th>
+          <th>Name</th>
+          <th>Standred</th>
+          <th>Major</th>
+          <th>Percentage</th>
+        </tr>
+      </thead>
+      <tbody align="center">
+        <tr>
+          <td>01</td>
+          <td>Manjunath</td>
+          <td>8</td>
+          <td>Kannada</td>
+          <td>73</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>Saravana</td>
+          <td>4</td>
+          <td>Maths</td>
+          <td>83</td>
+        </tr>
+        <tr>
+          <td>03</td>
+          <td>Nagaraju</td>
+          <td>9</td>
+          <td rowspan="2">Science</td>
+          <td>76</td>
+        </tr>
+        <tr>
+          <td>04</td>
+          <td>jaganath</td>
+          <td>10</td>
+          <td>63</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td height="50px" colspan="5" align="center">Signature of Head</td>
+        </tr>
+      </tfoot>
+    </table>
+    <br />
+    <hr class="horizontal" />
+    <h1 id="selectorhead">Pseudo Class in CSS</h1>
+    <span style="font-size: 20px; text-indent: 70px"
+      >The Pseudo Class is used make the operation in anchor tags make
+      <b style="font-weight: 20px"><i>"Hover , Active, Visited"</i></b>
+      operation in anchor tags.</span
+    >
+    <ol style="font-size: 20px">
+      <li>
+        <b
+          style="
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+            text-transform: uppercase;
+            color: blue;
+          "
+          >Hover :
+        </b>
+        The hover is make if mouse moves to the link it will change style
+        (color)
+      </li>
+      <li>
+        <b
+          style="
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+            color: blue;
+          "
+          >Visited :
+        </b>
+        If the link is opened the style (color) will change.
+      </li>
+      <li>
+        <b
+          style="
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+            color: blue;
+          "
+          >Active : </b
+        >If the link is clicked the style (color) will change.
+      </li>
+    </ol>
+    <nav class="pseudo" style="padding: 20px">
+      <a
+        href="https://www.google.co.in/"
+        target="_blank"
+        title="google"
+        style="padding: 20px"
+        >Link 1
+      </a>
+      <a
+        href="https://www.youtube.com/"
+        target="_blank"
+        title="facebook"
+        style="padding: 20px"
+        >Link 1</a
+      >
+      <a
+        href="https://www.facebook.com/"
+        target="_blank"
+        title="link"
+        style="padding: 20px"
+        >Link 2</a
+      >
+      <a
+        href="https://in.search.yahoo.com/?fr2=inr"
+        target="_blank"
+        title="google"
+        style="padding: 20px"
+        >Link 3</a
+      >
+    </nav>
+    <hr class="horizontal" />
+    <h1 id="selectorhead">BOX-SHADOW in CSS</h1>
+    <div class="shadow"></div>
+  </body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <link rel="shortcut icon" href="google.png" type="image/x-icon">
+  </head>
+  <body>
+    <h3>The Form takes All the Data of the user</h3>
+    <p>Please fill the form as per the instructions given in the guidelines</p>
+    <br />
+    <form action="Backend.php" target="_blank">
+      <div>
+        <label for="username">First Name -</label>
+        <input type="text" name="username" id="username" /> (The First Name must
+        be without space)
+      </div>
+      <br />
+      <div>
+        <label for="lastname"> Last Name - </label>
+        <input type="text" name="lastname" id="lastname" /> (The Last Name
+        contains only one letter)
+      </div>
+      <br />
+      <div>
+        <label for="DOB">Date of Birth (DOB) - </label>
+        <input type="date" name="DOB" id="DOB" /> (dd-mm-yyyy)
+      </div>
+      <br />
+      <div>
+        <label for="mail">E-mail ID - </label>
+        <input type="email" name="mail" id="mail" />
+      </div>
+      <br />
+      <div>
+        <label for="linkdin">Linkdin URL - </label>
+        <input type="url" name="linkdin" id="linkdin" /> (Provide your linkdin
+        profile)
+      </div>
+      <br />
+      <div>
+        <label for="phone"> Mobile Number - </label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+        />
+        (The Mobile Number should India and only contains 10 numbers)
+      </div>
+      <br />
+      <div>
+        <label for="gender"> Select Your Gender : </label><br />
+        <input type="radio" name="gender" id="gender" /> Male <br />
+        <input type="radio" name="gender" id="gender" /> Female<br />
+        <input type="radio" name="gender" id="gender" /> Others
+      </div>
+      <br />
+      <div>
+        <label for="password">Enter Your Password : </label>
+        <input type="password" name="password" id="password" /> (The Password
+        must be contain 8 to 15 characters and must be contain one letter,
+        special character and number )
+      </div>
+      <br />
+      <div>
+        <label for="password">Re-Enter Your Password : </label>
+        <input type="password" name="password" id="password" /> (The password
+        should be Match)
+      </div>
+      <br />
+      <div>
+        Please mark your skills <br />
+        <input type="checkbox" name="Java" id="Java" />
+        <label for="Java"> Java</label><br />
+
+        <input type="checkbox" name="py" id="py" />
+        <label for="py"> Python</label><br />
+
+        <input type="checkbox" name="sql" id="sql" />
+        <label for="sql"> My SQL</label><br />
+
+        <input type="checkbox" name="C++" id="C++" />
+        <label for="C++"> C++</label><br />
+
+        <input type="checkbox" name=".net" id=".net" />
+        <label for=".net"> DOT.NET</label><br />
+      </div>
+      <br />
+      <div>
+        <label for="upload"> Please upload your resume</label>
+        <input type="file" name="upload" id="upload" /> <br />
+        (The format of the file is only pdf, word, html only. The file is only
+        less than 2MB.)
+      </div>
+      <br />
+      <div>
+        <label for="range"> Select your Range</label>
+        <input type="range" name="range" id="range" />
+      </div>
+      <br />
+      <div>
+        <label for="car">Select your car</label>
+        <select name="Mycar" id="car">
+          <option value="Hun">Hundayi I20</option>
+          <option value="mar" selected>Swift Desire</option>
+          <option value="vov">Z series</option>
+          <option value="mahe">XUV 700</option>
+          <option value="tesla">Tesla</option>
+        </select>
+      </div>
+      <br />
+     <hr>
+      <div>
+        <h4>
+          Note :
+          <i
+            >Check your Details once again, if it is submitted it cannot be
+            repalaceble.</i
+          >
+        </h4>
+      </div>
+      <br />
+      <div>
+        <label for="Submit">Click here to <i>Submit</i></label>
+        <input type="submit" name="Submit" id="Submit" />
+      </div>
+      <br />
+      <div>
+        <h4>Note : <i>If you want to reset the values please check here</i></h4>
+        <label for="reset">Click here to <i>Reset</i> </label>
+        <input type="reset" name="reset" id="reset" />
+      </div>
+    </form>
+  </body>
+</html>

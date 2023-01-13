@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML NOTES</title>
+    <link rel="shortcut icon" href="html.png" type="image/x-icon">
+  </head>
+  <body>
+    <h1>WELCOME TO HTML</h1>
+    
+    <h5><a href="http://127.0.0.1:5500/CSS%20Course.html" target="_blank">To CSS Notes click here</a></h5>
+    <hr />
+    <p>The HTML called as a <q>Hyper text Markup Language</q></p>
+    <p><strong>In HTML main content is : </strong></p>
+    <ol>
+      <li>Tags</li>
+      <li>Elements</li>
+      <li>Attributes</li>
+    </ol>
+
+    <p>
+      <b>1. Tags: </b> The tags is used to indicate the beginning and end of an
+      HTML element in an HTML document
+    </p>
+    <h4>List of some important tags in HTML</h4>
+    <ul type="disc">
+      <li>HTML tag (html)</li>
+      <li>Head tag (head)</li>
+      <li>Body tag (body)</li>
+      <li>Heading tag (h1 to h6)</li>
+      <li>Pharagraph tag (p)</li>
+      <li>Bold (b)</li>
+      <li>Itallic (i)</li>
+      <li>horizontal Line (hr --> <i>self closing tag</i> )</li>
+      <li>Line Break (br --> <i>self closing tag</i> )</li>
+      <li>
+        <b>Anchor tag : </b> This tag is used to make a Hyperlink 'a' tag name
+        is used, in this many attribute is used to make a hyper link
+      </li>
+      <li>
+        <b>Image tag : </b> The image tag is used to link the image to webpage
+      </li>
+    </ul>
+
+    <p>
+      <b>2. Elements : </b>
+      <q
+        >An HTML element is defined by a start tag, some content, and an end
+        tag.</q
+      >
+      The elements in contains open tag and closing tag and the content in the
+      middle of the opening and closing tag.
+    </p>
+    <p>
+      <b>3. Attributes : </b> Attributes provide additional information about
+      elements.
+    </p>
+    <br />
+    <hr />
+    <br />
+    <h3>Comments in HTML</h3>
+    <p>
+      The comments are made in HTML is using Syntax "< !-- comments -->". The
+      comments in HTML is used to understand the code to others.
+    </p>
+    <br />
+    <h3><b>How to make a HyperLink in HTML</b></h3>
+    <p>
+      Using Anchor (a) tag we make a Hyperlink : <br />
+      * Make a anchor tag <br />* in href attribute give URL <br />
+      * In the content space give the name of the site <br />* That will create
+      a HyperLink <br />
+      * If you want to open the link in new tab "Make a attribute as "
+      <b>target = _blank</b> " This will make that HyperLink as open in new tab
+    </p>
+    <br />
+    <hr />
+    <br />
+    <h3><b>How to add Image to website in HTML</b></h3>
+    <p>
+      Using Image (img) tag we make a Hyperlink : <br />
+      * Create img tag <br />
+      * In the <i>src</i> attribute paste the link of image in image format
+      <br />
+      * In alt (Alternative) Attribute give the name of the image (It will shows
+      when image will not appear) <br />
+      * The <i> title</i> attribute is used to give the name of the image (It
+      will shows when the curser is placed on the image).
+    </p>
+    <br />
+    <hr />
+    <br />
+    <h3>List in HTML</h3>
+
+    <p>
+      <b>There are two types of list in the HTML <br /></b>
+    </p>
+    <ol>
+      <li>Unordered List</li>
+      <li>Ordered List</li>
+    </ol>
+    <b>Unordered List : </b> This is provide a list using bullets without
+    Ordered. The Attribte for Unordered list is <b>type</b> (disc , square ,
+    circle).
+    <br />
+    <b>Ordered List : </b> This is provide a list using Numbers and ordered
+    format.The Attribte for Unordered list is <b>type</b> (1 , A , a, I, i).
+    <br />
+    <br />
+    <hr />
+
+    <!-- Creating a tables -->
+
+    <h3>Tables in HTML</h3>
+    <p>To create a table --> Declare <b>table head</b> and <b>table body</b></p>
+    <p>
+      In table head <br />
+      * We can add Head of the row and column <br />
+      * using "th" tag add the heading of the header row
+    </p>
+    <p>
+      In table body <br />
+      * table row <br />
+      * "td" tag is used to add the values in table row <br />
+      * How much row you want you can create a tag and add
+    </p>
+    <h3>Example of a table</h3>
+    <table>
+      <caption>
+        School Students Details
+      </caption>
+      <thead>
+        <tr>
+          <th>NAME</th>
+          <th>SUBJECT</th>
+          <th>GRADES</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Shivakumara</td>
+          <td>Mathematics</td>
+          <td>A+</td>
+        </tr>
+        <tr>
+          <td>Sreekanth</td>
+          <td>English</td>
+          <td>C+</td>
+        </tr>
+        <tr>
+          <td>Hemanth</td>
+          <td>Science</td>
+          <td>B+</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <hr />
+    <br />
+    <table>
+      <caption>
+        Travelling DataBase
+      </caption>
+
+      <thead>
+        <tr>
+          <th>SL NO</th>
+          <th>Name</th>
+          <th>Date of Birth</th>
+          <th>Starting Point</th>
+          <th>Destination</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td>Shivakumara</td>
+          <td>18/02/2001</td>
+          <td>Bangalore</td>
+          <td>Chikkajajur</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Sreekanth</td>
+          <td>01/11/1998</td>
+          <td>Tumkur</td>
+          <td>Sira</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>BhootheGowda</td>
+          <td>01/02/1994</td>
+          <td>Manipal</td>
+          <td>Udupi</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>Mohan</td>
+          <td>01/06/1997</td>
+          <td>Davanagere</td>
+          <td>Hubballi</td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td>Hemanth</td>
+          <td>01/08/1996</td>
+          <td>Hiriyur</td>
+          <td>yeshvanthapura</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <hr />
+    <br />
+    <table>
+      <caption>
+        Company Details
+      </caption>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+      <tr>
+        <td>Shivakumara</td>
+        <td>Chikkayemmiganuru</td>
+        <td>India</td>
+      </tr>
+      <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+      </tr>
+      <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+      </tr>
+      <tr>
+        <td>Laughing Bacchus</td>
+        <td>Yoshi Tannamuri</td>
+        <td>Canada</td>
+      </tr>
+    </table>
+    <br />
+    <hr />
+    <br />
+    <h3>FORMS IN HTML</h3>
+    <p>
+      The forms are created to take a data input and save the data in DataBase
+      <br />
+      The <q>form</q> tag is used to make the form <br />
+      The attribute in the form is redirected to DataBase.
+      <br />
+      <b>In the form Input types is used.</b>
+      <br />
+      In the input there many types is there. <br />
+      List of Input types : <br />
+    </p>
+
+    <ol>
+      <li>input type="button"</li>
+      <li>input type="checkbox"</li>
+      <li>input type="color"</li>
+      <li>input type="date"</li>
+      <li>input type="datetime-local"</li>
+      <li>input type="email"</li>
+      <li>input type="file"</li>
+      <li>input type="hidden"</li>
+      <li>input type="image"</li>
+      <li>input type="month"</li>
+      <li>input type="number"</li>
+      <li>input type="password"</li>
+      <li>input type="radio"</li>
+      <li>input type="range"</li>
+      <li>input type="reset"</li>
+      <li>input type="search"</li>
+      <li>input type="submit"</li>
+      <li>input type="tel"</li>
+      <li>input type="text"</li>
+      <li>input type="time"</li>
+      <li>input type="url"</li>
+      <li>input type="week"</li>
+    </ol>
+
+    The
+    <i
+      ><b><q>lable</q> </b></i
+    >
+    tag is used to make the label, If you click on the text area it will take's
+    to the box or input table.
+
+    <h4>
+      The Example form is created, if you want to check that
+      <a href="http://127.0.0.1:5500/form.html" target="_blank">click here</a>
+    </h4>
+
+    <br />
+    <hr />
+    <br />
+    <h3>Inline elements and Block elements in HTML</h3>
+    <div>
+      <b>Block Level Elements : </b> A block-level element always starts on a
+      new line, and the browsers automatically add some space (a margin) before
+      and after the element. A block-level element always takes up the full
+      width available (stretches out to the left and right as far as it can).
+      <br />
+      Example : &lt;div&gt; , &lt;p&gt; These are the block elements.
+    </div>
+    <br />
+    <div>
+      <b>InLine Elements : </b> An inline element does not start on a new line.
+      An inline element only takes up as much width as necessary.
+      <br />
+      Example : &lt;span&gt; , and etc.... These are the InLine elements.
+    </div>
+    <br />
+    <hr />
+    <br />
+    <div>
+      <h3>ID's and Classes In HTML</h3>
+      <p><b>Note : </b> The <i><b>ID's</b> </i> are Unique... and <b><i>CLASSES</i></b> are Multiple</p>
+      <b>Class : </b> The class attribute is often used to point to a class name
+      in a style sheet. It can also be used by a JavaScript to access and
+      manipulate elements with the specific class name.
+      <br />
+      In the following example we have three &lt;div&gt; elements with a class
+      attribute with the value of "city". All of the three &lt;div&gt; elements
+      will be styled equally according to the .city style definition in the head
+      section.
+      <br />
+      <b>ID's : </b> The HTML id attribute is used to specify a unique id for an
+      HTML element.
+      <i
+        ><b
+          >You cannot have more than one element with the same id in an HTML
+          document.
+        </b></i
+      >
+      <br />
+      <b>Using The id Attribute : </b>
+      <br />
+      &nbsp;&nbsp;&nbsp;&nbsp; <b>&#64; --> </b> The id attribute specifies a
+      unique id for an HTML element. The value of the id attribute must be
+      unique within the HTML document.
+      <br />
+      &nbsp;&nbsp;&nbsp;&nbsp; <b>&#64; --></b> The id attribute is used to
+      point to a specific style declaration in a style sheet. It is also used by
+      JavaScript to access and manipulate the element with the specific id.
+      <br />
+      &nbsp;&nbsp;&nbsp;&nbsp; <b>&#64; --></b> The syntax for id is: write a
+      hash character (#), followed by an id name. Then, define the CSS
+      properties within curly braces {}.
+      <br />
+      &nbsp;&nbsp;&nbsp;&nbsp; <b>&#64; --></b> In the following example we have
+      an &lt;h1&gt; element that points to the id name "myHeader". This
+      &lt;h1&gt; element will be styled according to the #myHeader style
+      definition in the head section:
+    </div>
+    <br />
+    <hr />
+    <br />
+    <div>
+      <h3>HTML Entiities</h3>
+      The HTML Entiities are Reserved characters. It is Obtained by code, pre
+      Desingned in the HTML.
+      <br />
+      <b><i>Some Important Entiities in HTML : </i></b>
+      <br />
+    </div>
+
+  </body>
+</html>
