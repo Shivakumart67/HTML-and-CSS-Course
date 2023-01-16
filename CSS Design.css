@@ -427,3 +427,59 @@ h3[id="post"] {
   bottom: 120px;
   z-index: 0;
 }
+.outline{
+  width: 300px;
+  height: 300px;
+  margin-left: 300px;
+  padding: 10px;
+margin-top: 50px;
+margin-bottom: 50px;
+  background-color: bisque;
+  border: 10px;
+  border-style: solid;
+  border-color: black;
+  outline: 20px;
+  outline-color: red;
+  outline-style: solid;
+  outline-offset: 5px;
+}
+.minmax{
+  min-height: 100px;
+  max-height: 500px;
+  min-width: 100px;
+  max-width: 500px;
+  background-color:darkgray;
+  margin: 20px 20px 20px 400px;
+  padding: 10px;
+  border: 2px solid purple; 
+  overflow: auto;
+  text-align: justify;
+  text-indent: 50px;
+
+}
+.minmax img {
+    height: 500px;
+    width: 700px;
+}
+.boxsizing{
+  width: 500px;
+  min-height: 500px;
+  background-color: #f9eadd;;
+  margin: 20px;
+  padding: 10px;
+  border: 5px solid orangered ;
+  box-sizing: border-box;
+}
+.columns{
+    width: 800px;
+    height: 400px;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 20px 20px 20px 300px;
+  column-count: 3;
+}
+.columns h3 {
+    column-span: all;
+}
