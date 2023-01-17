@@ -483,3 +483,20 @@ margin-bottom: 50px;
 .columns h3 {
     column-span: all;
 }
+.selectors{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 40px;
+
+}
+#subselectors{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+}
+:root{
+  --shiva: pink;
+}
+.shiva{
+  color: var(--shiva);
+}
