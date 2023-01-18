@@ -479,6 +479,8 @@ margin-bottom: 50px;
     box-sizing: border-box;
     margin: 20px 20px 20px 300px;
   column-count: 3;
+  column-gap: 50px;
+  column-rule: 1px solid black ;
 }
 .columns h3 {
     column-span: all;
