@@ -368,6 +368,7 @@ h3[id="post"] {
   border: 2px solid black;
   /* margin: 10px; */
   /* padding: 10px; */
+  overflow: auto;
 }
 .st {
   padding: 10px;
@@ -427,13 +428,13 @@ h3[id="post"] {
   bottom: 120px;
   z-index: 0;
 }
-.outline{
+.outline {
   width: 300px;
   height: 300px;
   margin-left: 300px;
   padding: 10px;
-margin-top: 50px;
-margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   background-color: bisque;
   border: 10px;
   border-style: solid;
@@ -443,62 +444,91 @@ margin-bottom: 50px;
   outline-style: solid;
   outline-offset: 5px;
 }
-.minmax{
+.minmax {
   min-height: 100px;
   max-height: 500px;
   min-width: 100px;
   max-width: 500px;
-  background-color:darkgray;
+  background-color: darkgray;
   margin: 20px 20px 20px 400px;
   padding: 10px;
-  border: 2px solid purple; 
+  border: 2px solid purple;
   overflow: auto;
   text-align: justify;
   text-indent: 50px;
-
 }
 .minmax img {
-    height: 500px;
-    width: 700px;
+  height: 500px;
+  width: 700px;
 }
-.boxsizing{
+.boxsizing {
   width: 500px;
   min-height: 500px;
-  background-color: #f9eadd;;
+  background-color: #f9eadd;
   margin: 20px;
   padding: 10px;
-  border: 5px solid orangered ;
+  border: 5px solid orangered;
   box-sizing: border-box;
 }
-.columns{
-    width: 800px;
-    height: 400px;
-    padding: 10px;
-    background-color: #fff;
-    border: 2px solid black;
-    box-sizing: border-box;
-    margin: 20px 20px 20px 300px;
+.columns {
+  width: 800px;
+  height: 400px;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin: 20px 20px 20px 300px;
   column-count: 3;
   column-gap: 50px;
-  column-rule: 1px solid black ;
+  column-rule: 1px solid black;
 }
 .columns h3 {
-    column-span: all;
+  column-span: all;
 }
-.selectors{
-    font-size: 25px;
-    font-weight: bold;
-    line-height: 40px;
-
+.selectors {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 40px;
 }
-#subselectors{
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 25px;
+#subselectors {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px;
 }
-:root{
+:root {
   --shiva: pink;
 }
-.shiva{
+.shiva {
   color: var(--shiva);
+}
+.pseudo {
+  font-size: 30px;
+  color: navy;
+  font-weight: bolder;
+  background-color: rgb(127, 255, 138);
+  border-radius: 20px;
+  display: inline;
+  padding: 8px;
+  margin: 20px 20px, 20px, 20px;
+}
+:root{
+  --bgcolor: rgb(235, 150, 150);
+  --color: #0a07a0;
+}
+.root{
+  width: 200px;
+  height: 100px;
+  margin-left: 50%;
+  margin-top: 50px;
+  background-color: var(--bgcolor);
+  color:var(--color);
+}
+.fclc ul{
+  font-size: 30px;
+}
+.fclc ul li:first-child{
+  color: red;
+}
+.fclc li:last-child{
+  color: blue;
 }
