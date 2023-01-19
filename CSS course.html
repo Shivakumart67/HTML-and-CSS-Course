@@ -999,16 +999,17 @@
     </ol>
     <hr class="horizontal" />
     <h1 id="selectorhead">Pseudo Selector</h1>
-    <h3 class="pseudo">1. :root Selector</h3>
+    <h3 class="pseudohead">1. :root Selector</h3>
     <br />
-    <div class = "root">
-          The <b><i>:root</i></b> is create a variable and use that in all the values.
+    <div class="root">
+      The <b><i>:root</i></b> is create a variable and use that in all the
+      values.
     </div>
-    <br>
-    <hr class="horizontal">
-    <br>
-    <h3 class = "pseudo">2. First child and last child</h3>
-    <div class = "fclc">
+    <br />
+    <hr class="horizontal" />
+    <br />
+    <h3 class="pseudohead">2. First child and last child</h3>
+    <div class="fclc">
       <ul>
         <li>first</li>
         <li>dfsdsd</li>
@@ -1016,6 +1017,116 @@
         <li>sdsds</li>
         <li>last</li>
       </ul>
+    </div>
+    <br />
+    <hr class="horizontal" />
+    <br />
+    <h3 class="pseudohead">3. nth-child and nth-last-child</h3>
+    <ol
+      class="nthchild"
+      style="font-size: 30px; margin-left: 30px; line-height: 50px"
+    >
+      <li>This also use formula :</li>
+      <li>2n : 2 * 0, 2*1, 2*2 .... etc</li>
+      <li>3n + 1</li>
+      <li>2n + 1</li>
+      <li>any formula</li>
+      <li>last nth child count from last</li>
+      <li>nth child</li>
+      <li>nth child</li>
+      <li>nth child</li>
+      <li>nth child</li>
+    </ol>
+    <br />
+    <hr class="horizontal" />
+    <br />
+    <h3 class="pseudohead">4. only-child</h3>
+    <div class="onlychild">
+      <p>
+        If it have only one child to parent it will works , <br />
+        if the parent have more than one child.
+      </p>
+    </div>
+    <hr class="horizontal" />
+    <br />
+    <h3 class="pseudohead">5. Only-of-type</h3>
+    <div class="onlyoftype">
+      <p>
+        If it have only on tag in the division that will select. <br />
+        If the document only have that element one time in that that will
+        select.
+      </p>
+    </div>
+    <br />
+    <hr class="horizontal" />
+    <br />
+    <h3 class="pseudohead">Empty Selector (:empty)</h3>
+    <div class="empty">
+      <span
+        style="
+          font-size: 30px;
+          font-family: cursive;
+          margin-left: 50px;
+          margin-top: 100px;
+        "
+        >If there is tag is empty that will select to style.</span
+      >
+      <p></p>
+    </div>
+    <br />
+    <hr class="horizontal" />
+    <br />
+    <h3 class="pseudohead">Target selector (:target)</h3>
+    <br />
+    <br />
+    <div>
+      <a class = "anchortag"  href="#p1">Para 1</a>
+      <a class = "anchortag" href="#p2">Para 2</a>
+      <a class = "anchortag" href="#p3">Para 3</a>
+    </div>
+    <div class="notnll">
+      <p id="p1">
+        <b>Para 1</b> ipsum dolor sit amet consectetur adipisicing elit.
+        Molestiae provident explicabo praesentium id? Quidem soluta commodi
+        molestiae quod a. Temporibus illum earum maxime corrupti dolorem
+        voluptates eius, mollitia illo a, explicabo alias quas labore laudantium
+        dolores deleniti molestias accusantium! Corrupti eos unde excepturi,
+        recusandae in, nemo, provident pariatur illum sint corporis est quam
+        repellendus harum ratione optio asperiores consequuntur ea. Cum impedit
+        laudantium earum molestias expedita, cumque minus id, magni obcaecati
+        facere ut. Veniam omnis corporis beatae, consequatur quia nobis
+        laboriosam at sint quam aliquid voluptates ullam vero eveniet eligendi
+        ad iste amet placeat similique illum, ducimus consequuntur excepturi.
+        Itaque.
+      </p>
+      <p id="p2">
+        <b>Para 2</b>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Molestiae provident explicabo praesentium id? Quidem soluta commodi
+        molestiae quod a. Temporibus illum earum maxime corrupti dolorem
+        voluptates eius, mollitia illo a, explicabo alias quas labore laudantium
+        dolores deleniti molestias accusantium! Corrupti eos unde excepturi,
+        recusandae in, nemo, provident pariatur illum sint corporis est quam
+        repellendus harum ratione optio asperiores consequuntur ea. Cum impedit
+        laudantium earum molestias expedita, cumque minus id, magni obcaecati
+        facere ut. Veniam omnis corporis beatae, consequatur quia nobis
+        laboriosam at sint quam aliquid voluptates ullam vero eveniet eligendi
+        ad iste amet placeat similique illum, ducimus consequuntur excepturi.
+        Itaque.
+      </p>
+      <p id="p3">
+        <b>Para 3</b>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Molestiae provident explicabo praesentium id? Quidem soluta commodi
+        molestiae quod a. Temporibus illum earum maxime corrupti dolorem
+        voluptates eius, mollitia illo a, explicabo alias quas labore laudantium
+        dolores deleniti molestias accusantium! Corrupti eos unde excepturi,
+        recusandae in, nemo, provident pariatur illum sint corporis est quam
+        repellendus harum ratione optio asperiores consequuntur ea. Cum impedit
+        laudantium earum molestias expedita, cumque minus id, magni obcaecati
+        facere ut. Veniam omnis corporis beatae, consequatur quia nobis
+        laboriosam at sint quam aliquid voluptates ullam vero eveniet eligendi
+        ad iste amet placeat similique illum, ducimus consequuntur excepturi.
+        Itaque.
+      </p>
     </div>
   </body>
 </html>
