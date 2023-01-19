@@ -511,62 +511,62 @@ h3[id="post"] {
   padding: 8px;
   margin: 20px 20px, 20px, 20px;
 }
-:root{
+:root {
   --bgcolor: rgb(235, 150, 150);
   --color: #0a07a0;
 }
-.root{
+.root {
   width: 200px;
   height: 100px;
   margin-left: 50%;
   margin-top: 50px;
   background-color: var(--bgcolor);
-  color:var(--color);
+  color: var(--color);
 }
-.fclc ul{
+.fclc ul {
   font-size: 30px;
 }
-.fclc ul li:first-child{
+.fclc ul li:first-child {
   color: red;
 }
-.fclc li:last-child{
+.fclc li:last-child {
   color: blue;
 }
-.nthchild li:nth-child(4){
+.nthchild li:nth-child(4) {
   color: red;
 }
-.nthchild li:nth-last-child(4){
+.nthchild li:nth-last-child(4) {
   color: red;
 }
-.nthchild li:nth-child(5){
+.nthchild li:nth-child(5) {
   color: red;
 }
-.nthchild li:nth-child(2n){
+.nthchild li:nth-child(2n) {
   color: navy;
 }
-.nthchild li:nth-child(2n+1){
+.nthchild li:nth-child(2n + 1) {
   color: #51bd08;
 }
-.onlychild p:only-child{
+.onlychild p:only-child {
   margin-left: 50px;
   padding: 10px;
   color: navy;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-size: 25px;
 }
-.onlyoftype p:only-of-type{
-  color: #d60a0a ;
-  font-family: 'Times New Roman', Times, serif;
+.onlyoftype p:only-of-type {
+  color: #d60a0a;
+  font-family: "Times New Roman", Times, serif;
   font-size: 25px;
   margin-left: 30px;
 }
-.empty p:empty{
+.empty p:empty {
   background-color: brown;
   border-radius: 20px;
   width: 500px;
   height: 50px;
   margin-left: 30px;
-
 }
 .notnll p {
   margin: 20px;
@@ -575,7 +575,7 @@ h3[id="post"] {
   text-align: justify;
   text-indent: 70px;
 }
-.anchortag{
+.anchortag {
   margin-left: 200px;
   text-decoration: none;
   height: 100%;
@@ -584,30 +584,66 @@ h3[id="post"] {
   border-radius: 5px;
   font-size: 20px;
   color: black;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
-.anchortag:hover{
-    background-color: navy;
-    color: white;
-    font-style: italic;
-    font-family: cursive;
-    font-size: 30px;
-    transition-property: all;
-    transition-duration: 0.1s;
-    transition-delay: 0s;
-    transition-timing-function: ease-in-out;
+.anchortag:hover {
+  background-color: navy;
+  color: white;
+  font-style: italic;
+  font-family: cursive;
+  font-size: 20px;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+  border-radius: 50px;
 }
-.anchortag:active{
+.anchortag:active {
   background-color: rgb(128, 126, 0);
   color: rgb(10, 3, 70);
   font-style: italic;
   font-family: cursive;
   font-size: 30px;
 }
-.notnll p:target{
+.notnll p:target {
   background-color: darksalmon;
   color: black;
   font-size: 20px;
   font-weight: bold;
+}
+.elementselector p {
+  font-size: 20px;
+  text-align: justify;
+  text-indent: 80px;
+  line-height: 30px;
+}
+.elementselector p::first-letter {
+  color: #1a09b4;
+  font-size: 30px;
+}
+.elementselector p::first-line {
+  color: #a00707;
+}
+.elementselector p::selection {
+  background-color: yellow;
+  color: black;
+}
+.trasition {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin-left: 50px;
+  transition-property: width, background-color;
+  transition-duration: 1s;
+  transition-delay: 0ms;
+  transition-timing-function: ease;
 
+}
+.trasition:hover{
+  width: 400px;
+  background-color: green;
+}
+.flexbox ul{
+  font-size: 20px;
+  line-height: 40px;
 }
