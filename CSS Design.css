@@ -211,7 +211,7 @@
   display: none;
   display: inline-block;
 }
-.tablestudents {
+.tabl4students {
   border-collapse: collapse;
   border-color: purple;
 }
@@ -814,7 +814,7 @@ h3[id="post"] {
   grid-template-rows: 1fr 2fr 1fr;
   grid-template-rows: repeat(3, 2fr);
 
-  grid-template: repeat(3, 2fr) / repeat(3,2fr);
+  grid-template: repeat(3, 2fr) / repeat(3, 2fr);
   row-gap: 10px;
   column-gap: 10px;
   gap: 20px 20px;
@@ -839,45 +839,125 @@ h3[id="post"] {
   place-items: stretch; */
   justify-content: end;
 }
-.gridcontainer div{
+.gridcontainer div {
   height: 100px;
   width: 100px;
 }
-.container-gridbox{
+.container-gridbox {
   width: 100%;
   height: 700px;
   border: 2px solid black;
   overflow: auto;
   box-sizing: border-box;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   display: grid;
-  grid-template-areas: 'header header header' 'navbar content aside' 'footer footer footer' ;
+  grid-template-areas: "header header header" "navbar content aside" "footer footer footer";
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 100px 1fr 50px;
   margin-top: 20px;
-
 }
-.container-gridbox :is(header, nav, main, aside, footer){
-  background-color: orangered ;
+.container-gridbox :is(header, nav, main, aside, footer) {
+  background-color: orangered;
   color: white;
   border: 1px solid white;
   padding: 20px;
 }
-.container-gridbox header{
+.container-gridbox header {
   grid-area: header;
 }
-.container-gridbox nav{
+.container-gridbox nav {
   grid-area: navbar;
 }
-.container-gridbox main{
+.container-gridbox main {
   grid-area: content;
 }
-.container-gridbox aside{
+.container-gridbox aside {
   grid-area: aside;
 }
-.container-gridbox footer{
+.container-gridbox footer {
   grid-area: footer;
 }
+.complexgrid {
+  width: 100%;
+  height: 1000px;
+  margin-top: 20px;
+  border: 2px solid black;
+  display: grid;
+  overflow: auto;
+  grid-template-areas: 
+  'nav nav nav'
+  'h h h'
+  'aside cont cont'
+  'as1 as2 as3'
+  'f f f'
+  ;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 100px 1fr 200px 50px;
 
-
-
+}
+.complexgrid nav{
+    padding: 10px;
+  background-color: rgb(221, 152, 127);
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid purple;
+  grid-area: nav;
+}
+.complexgrid header{
+  padding: 40px;
+background-color: rgb(219, 139, 219);
+color: black;
+font-weight: bold;
+font-size: 20px;
+border: 1px solid purple;
+grid-area: h;
+}
+.complexgrid aside{
+padding: 40px;background-color: rgb(176, 114, 212);
+color: black;
+font-weight: bold;
+font-size: 20px;
+border: 1px solid purple;
+grid-area: aside;
+}
+.complexgrid main{
+padding: 40px;background-color: rgb(137, 243, 247);
+color: black;
+font-weight: bold;
+font-size: 20px;
+border: 1px solid purple;
+grid-area: cont;
+}
+.complexgrid .aside1{
+padding: 40px;background-color: rgba(224, 157, 102, 0.863);
+color: black;
+font-weight: bold;
+font-size: 20px;
+border: 1px solid purple;
+grid-area: as1;
+}
+.complexgrid .aside2{
+padding: 40px;background-color: rgb(131, 202, 109);
+color: black;
+font-weight: bold;
+font-size: 20px;
+border: 1px solid purple;
+grid-area: as2;
+}
+.complexgrid .aside3{
+padding: 40px;background-color: rgb(138, 95, 136);
+color: black;
+font-weight: bold;
+font-size: 20px;
+border: 1px solid purple;
+grid-area: as3;
+}
+.complexgrid footer{
+padding: 40px;background-color: rgb(218, 149, 104);
+color: black;
+font-weight: bold;
+font-size: 20px;
+border: 1px solid purple;
+grid-area: f;
+}
