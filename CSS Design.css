@@ -797,7 +797,7 @@ h3[id="post"] {
   background-color: rgb(109, 11, 96);
 }
 .gridcontainer {
-  min-width: 800px;
+  min-width: 800px; 
   max-width: 1000px;
   padding: 10px;
   display: grid;
